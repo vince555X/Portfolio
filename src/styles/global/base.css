@@ -1,0 +1,24 @@
+body {
+    font-family: var(--font-main);
+    color: var(--text-light);
+    background-color: var(--bg-dark);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--text-light);
+  }
+
+  .main-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-light: #f8f9fa;
+    --bg-dark: #121212;
+    --text-dark: #212529;
+    --text-light: #E0E0E0;
+    --font-main: 'Segoe UI', sans-serif;
+  }
