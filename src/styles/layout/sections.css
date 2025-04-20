@@ -1,15 +1,22 @@
 .header-content {
-    padding: 20px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding: 20px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+  .header-content>nav>ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
 .home-section {
     padding: 20px;
 
-    width: 100%;
     max-width: 900px;
   }
   
@@ -17,14 +24,33 @@
     margin: 20px 0;
     padding: 20px;
 
-    width: 100%;
     max-width: 900px;
   }
   
   #skills {
     padding: 20px;
 
-    width: 100%;
     max-width: 900px;
   }
+
+  #skills>ul>li {
+    list-style-type: square;
+  }
+  
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content > nav > ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-content {
+    font-size: var(--font-size-small);
+  }
+}
   
