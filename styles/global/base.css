@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  background: var(--bg-dark) url("../../assets/img/bg-moon.png") no-repeat center center fixed;
+  background: var(--bg-dark) url("../../assets/img/bg-moon.png") no-repeat center center;
   background-size: cover;
   background-position: center;
 }

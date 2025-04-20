@@ -24,12 +24,9 @@
   
 @media (max-width: 858px) {
   body {
-    background: var(--bg-dark) url("../../assets/img/bg-moon.png") no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    /* Remove fixed to avoid mobile issue */
+    background-attachment: fixed;
   }
-  
+
   .header-content {
     flex-direction: column;
     align-items: flex-start;
