@@ -1,10 +1,16 @@
 * {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
   position: relative;
   overflow-x: hidden;
   font-family: var(--font-main);
@@ -39,10 +45,10 @@ html, body {
     color: var(--text-light);
   }
 
-  .main-content {
-    margin-top: 140px;
+  section, article {
+    margin: 140px auto 0 auto;
     padding: 40px 20px;
-    width: 100%;
+    width: 75%;
     position: relative;
     z-index: 1;
     display: flex;
@@ -50,12 +56,5 @@ html, body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     font-size: var(--font-medium-size);
+    line-height: 2.5;
   }
-  
-  .footer-content {
-    padding: 20px;
-    text-align: center;
-    color: var(--text-light);
-    font-size: var(--font-size-small);
-  }
-  
